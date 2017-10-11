@@ -1,0 +1,117 @@
+.content
+{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+h1
+{
+	color: #9D9489;
+	font-size: 50;
+	font-family: georgia;
+	font-weight: bold;
+    
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+h2
+{
+	color: #006F66;
+	font-size: 20;
+	font-family: georgia;
+	font-weight: bold; 
+    
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.toolTip 
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    background: none repeat scroll 0 0 white;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;
+    color: black;
+    font: 12px sans-serif;
+    padding: 5px;
+    text-align: left;
+}
+
+text 
+{
+    font: 10px arial;
+    color: #464646;
+}
+
+.yaxis .tick line {
+        stroke-width: 0;
+        stroke: rgba(0, 0, 0, 0.2);
+    }
+
+text.donutCenterText
+{
+    font: 20px arial !important;
+    text-align: center;
+    text-anchor: middle;
+}
+
+text.donutCenterText2
+{
+    font: 14px arial !important;
+    text-align: center;
+    text-anchor: middle;
+}
+
+text.legendTitle
+{
+    font: 14px arial !important;
+    text-align: left;
+}
+
+text.legendText
+{
+    font: 14px arial !important;
+    text-align: left;
+}
+
+g.legend g:hover .legendText
+{
+    font-weight: bold !important;
+}
+
+g.legend g:hover
+{
+    cursor: pointer;
+}
+
+text.barChartTitle
+{
+    font: 14px arial !important;
+}
+
+table
+{
+    margin-left: 50px;
+}
+
+th
+{
+    font: 10px arial;
+    text-align: left;
+    color: #006F66;
+    border-bottom: 1px solid #006F66;
+}
+
+td
+{
+    font: 10px arial;
+    text-align: left;
+    padding-right: 40px;
+}
